@@ -1,7 +1,14 @@
 {
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
   "dependencies": {
     "express": "^4.18.1",
     "mongoose": "^6.6.3",
     "nosql": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
